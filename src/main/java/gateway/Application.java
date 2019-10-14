@@ -17,9 +17,11 @@ public class Application {
 	public RouteLocator myRoutes(RouteLocatorBuilder builder) {
 		return builder.routes()
 				.route(p -> p
-						.path("/get")
-						.filters(f -> f.addRequestHeader("Hello", "World"))
-						.uri("http://httpbin.org:80"))
+						.path("/dividas/**")
+						.uri("http://localhost:8081/"))
+				.route(p -> p
+						.path("/scores/**")
+						.uri("http://localhost:8082/"))
 				.build();
 	}
 

@@ -1,6 +1,6 @@
 # api-gateway-cred-sys
 
-Olá, este é a implementação inicial de um sistema hipotético do sistema API Gateway dos sistemas de Credito,Divida e Score
+Olá, este é a implementação inicial de um sistema hipotético do sistema API Gateway dos sistemas de Divida e Score
 
 Saiba mais na wiki
 
